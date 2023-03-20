@@ -82,29 +82,29 @@ def forwards():
     f.write("Moving forwards/n")
     GPIO.output(motor1f, GPIO.HIGH)
     GPIO.output(motor2f, GPIO.HIGH)
-    sleep(0.5)
+    sleep(2)
     GPIO.output(motor1f, GPIO.LOW)
     GPIO.output(motor2f, GPIO.LOW)
     temperature()
-    sleep(0.5)
+    sleep(1)
 
 def turnLeft():
     f.write("Turning Left\n")
     GPIO.output(motor1f, GPIO.HIGH)
     GPIO.output(motor2r, GPIO.HIGH)
-    sleep(0.5)
+    sleep(2)
     GPIO.output(motor2r, GPIO.LOW)
     GPIO.output(motor1f, GPIO.LOW)
-    sleep(0.5)
+    sleep(1)
 
 def turnRight():
     f.write("Turning Right\n")
     GPIO.output(motor1r, GPIO.HIGH)
     GPIO.output(motor2f, GPIO.HIGH)
-    sleep(0.5)
+    sleep(2)
     GPIO.output(motor2f, GPIO.LOW)
     GPIO.output(motor1r, GPIO.LOW)
-    sleep(0.5)
+    sleep(1)
         
 
 # main program
