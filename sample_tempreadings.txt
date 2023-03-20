@@ -1,152 +1,217 @@
 Motor control
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.625
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.75
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.687
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.125
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.437
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.562
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.625
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.562
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.562
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.5
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.5
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.437
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.375
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.375
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.312
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.312
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.312
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.25
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.187
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.187
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.25
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.187
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.125
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.125
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.125
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.062
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.125
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.062
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.062
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.0
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.0
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.937
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.937
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.937
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.812
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.812
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.75
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.812
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.812
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.812
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.812
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.75
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.75
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.75
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.75
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.687
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.687
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 21.875
 Turning Left
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.437
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.875
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 23.0
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 23.125
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 23.125
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 23.062
 Turning Right
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.937
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.937
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.875
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.812
-Moving forwards/nGetting temperature
+Moving forwards
+Getting temperature
 Temperature is: 22.812
 Finished
