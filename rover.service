@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/bin/sudo /usr/bin/python3 -u /home/pi/motors.py
+ExecStart=/bin/sudo /usr/bin/python3 -u /boot/motors.py
 WorkingDirectory=/home/pi
 User=pi
 
