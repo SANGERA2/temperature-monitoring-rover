@@ -1,6 +1,8 @@
+f = open("tempreadings.txt", "w")
 
 
-import RPi.GPIO as GPIO
+f.write("Starting rover program\n")
+RPi.GPIO as GPIO
 from time import sleep
 
 motor1f = 21
@@ -46,6 +48,7 @@ def read_temp_raw():
     lines = f.readlines()
     f.close()
     return lines
+
  
 def read_temp():
     lines = read_temp_raw()
@@ -59,8 +62,6 @@ def read_temp():
         return temp_c
 
 
-
-
 def temperature():
     f.write("Getting temperature\n")
     c = read_temp()
@@ -69,46 +70,39 @@ def temperature():
         GPIO.output(led, GPIO.HIGH)
     else:
         GPIO.output(led, GPIO.LOW)
-
-
-    
-    
     f.write("Temperature is: " + str(c) + "\n")
 
 
-
-
 def forwards():
-    f.write("Moving forwards/n")
+    f.write("Moving forwards\n")
     GPIO.output(motor1f, GPIO.HIGH)
     GPIO.output(motor2f, GPIO.HIGH)
-    sleep(2)
+    sleep(3)
     GPIO.output(motor1f, GPIO.LOW)
     GPIO.output(motor2f, GPIO.LOW)
     temperature()
     sleep(1)
 
+
 def turnLeft():
     f.write("Turning Left\n")
     GPIO.output(motor1f, GPIO.HIGH)
     GPIO.output(motor2r, GPIO.HIGH)
-    sleep(2)
+    sleep(3)
     GPIO.output(motor2r, GPIO.LOW)
     GPIO.output(motor1f, GPIO.LOW)
     sleep(1)
+
 
 def turnRight():
     f.write("Turning Right\n")
     GPIO.output(motor1r, GPIO.HIGH)
     GPIO.output(motor2f, GPIO.HIGH)
-    sleep(2)
+    sleep(3)
     GPIO.output(motor2f, GPIO.LOW)
     GPIO.output(motor1r, GPIO.LOW)
     sleep(1)
         
-
-# main program
-f = open("tempreadings.txt", "w")
 
 
 f.write("Motor control\n")
@@ -153,6 +147,4 @@ GPIO.output(led, GPIO.LOW)
 
 
 f.close()
-
-
 
