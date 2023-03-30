@@ -1,9 +1,13 @@
-f = open("tempreadings.txt", "w")
+from time import sleep
 
+sleep(10)
+
+f = open("/boot/tempreadings.txt", "w")
 
 f.write("Starting rover program\n")
-RPi.GPIO as GPIO
-from time import sleep
+
+
+import RPi.GPIO as GPIO
 
 motor1f = 21
 motor1r = 22
@@ -34,10 +38,10 @@ sleep(5)
 
 import os
 import glob
- 
+
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
- 
+
 base_dir = '/sys/bus/w1/devices/'
 device_folder = glob.glob(base_dir + '28*')[0]
 device_file = device_folder + '/w1_slave'
@@ -49,7 +53,7 @@ def read_temp_raw():
     f.close()
     return lines
 
- 
+
 def read_temp():
     lines = read_temp_raw()
     while lines[0].strip()[-3:] != 'YES':
@@ -81,7 +85,7 @@ def forwards():
     GPIO.output(motor1f, GPIO.LOW)
     GPIO.output(motor2f, GPIO.LOW)
     temperature()
-    sleep(1)
+    sleep(0.5)
 
 
 def turnLeft():
@@ -91,7 +95,7 @@ def turnLeft():
     sleep(3)
     GPIO.output(motor2r, GPIO.LOW)
     GPIO.output(motor1f, GPIO.LOW)
-    sleep(1)
+    sleep(0.5)
 
 
 def turnRight():
@@ -101,40 +105,35 @@ def turnRight():
     sleep(3)
     GPIO.output(motor2f, GPIO.LOW)
     GPIO.output(motor1r, GPIO.LOW)
-    sleep(1)
-        
+    sleep(0.5)
 
 
 f.write("Motor control\n")
-for i in range(5):
+for i in range(10):
 
-
-    for x in range(5):
+    for x in range(10):
         forwards()
 
     turnLeft()
     forwards()
     turnLeft()
 
-    for z in range(5):
+    for z in range(10):
         forwards()
-        
-        
+
     turnRight()
     forwards()
     turnRight()
-
 
 
 turnRight()
 turnRight()
 
 
-
-for v in range(10):
+for v in range(20):
     forwards()
-    
-    
+
+
 f.write("Finished\n")
 
 
@@ -145,6 +144,4 @@ GPIO.output(motor2r, GPIO.LOW)
 GPIO.output(led, GPIO.LOW)
 
 
-
 f.close()
-
